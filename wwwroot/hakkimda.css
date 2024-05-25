@@ -1,0 +1,48 @@
+.profilContainer {
+    position: absolute;
+    top: 50%;
+    left: 50px; /* Sol kenara 50px boşluk */
+    transform: translateY(-50%);
+    height: 500px;
+    width: 300px; 
+    background: #e3d5ca;
+    border: 1px solid #d6ccc2;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  img {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+  
+  .profile p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hakkimdaYazi{
+    position: absolute;
+    top: 50%;
+    right: 50px; /* Sol kenara 50px boşluk */
+    transform: translateY(-50%);
+    height: 500px;
+    width: 900px; 
+    background: #e3d5ca;
+    border: 1px solid #d6ccc2;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+  }
+  .hakkimdaYazi p{
+    margin-top: 50px;
+    font-size: 15px;
+    transform: translate(-50);
+    display: block;
+  }
+  

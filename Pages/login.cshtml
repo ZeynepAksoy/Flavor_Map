@@ -1,0 +1,41 @@
+@page
+@model login
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+
+
+   <div class="card">
+       <h2>Giriş Yap</h2>
+
+       <div class="login_register">
+           <a href="login" class="login" target="_self"> Giriş Yap</a>
+           <a href="signup" class="register" target="_self">Hesap Oluştur</a>
+       </div>
+
+       <form class="form">
+           <input type="email" placeholder="Email Adres" class="email">
+           <input type="password" placeholder="Şifre" class="pass">
+       </form>
+
+       <a href="#" class="fp">Şifreni mi unuttun?</a>
+
+           <button type="button" class="login_btn">Giriş Yap</button>
+
+       <div class="footer_card">
+       <a href="signup">Şimdi Kaydol</a>
+       </div>
+   </div>
+</body>
+</html>

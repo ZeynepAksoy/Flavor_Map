@@ -1,0 +1,38 @@
+@page
+@model signup 
+@{
+    ViewData["Title"] = "Kaydol";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+
+        <div class="card">
+            <h2>Kaydol</h2>
+            <div class="login_register">
+                <a href="login" class="login" target="blank">Giriş Yap</a>
+                <a href="signup" class="register" target="blank">Hesap Oluştur</a>
+            </div>
+
+            <form class="form">
+                <input type="email" placeholder="Email Adres" class="email">
+                <input type="password" placeholder="Şifre" class="pass">
+                <input type="password" placeholder="Şifrenizi tekrar giriniz" class="confirm_pass">
+            </form>
+
+            <a href="#" class="fp">Şifrenizi mi unuttuz?</a>
+    
+                <button type="submit" class="login_btn">Kaydol</button>
+        </div>
+            
+</body>
+</html>

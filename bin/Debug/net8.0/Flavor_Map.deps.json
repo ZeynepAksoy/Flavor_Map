@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Flavor_Map/1.0.0": {
+        "runtime": {
+          "Flavor_Map.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flavor_Map/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
